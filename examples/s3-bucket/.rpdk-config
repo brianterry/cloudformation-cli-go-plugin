@@ -1,0 +1,12 @@
+{
+    "typeName": "Example::s3::Bucket",
+    "language": "go",
+    "runtime": "go1.x",
+    "entrypoint": "handler",
+    "testEntrypoint": "handler",
+    "settings": {
+        "importpath": "github.com/cloudformation-cli-go-plugin/examples/s3-bucket",
+        "protocolVersion": "1.0",
+        "pluginVersion": "0.1.2"
+    }
+}
