@@ -96,7 +96,7 @@ func Read(req handler.Request, prevModel *Model, currentModel *Model) (handler.P
 
 // Update handles the Update event from the Cloudformation service.
 func Update(req handler.Request, prevModel *Model, currentModel *Model) (handler.ProgressEvent, error) {
-	// Because we only have one propertie, and it's the primaryIdentifier, to change such a property on a live resource,
+	// Because we only have one property, and it's the primaryIdentifier, to change such a property on a live resource,
 	// we replace that resource by creating a new instance of the resource and terminating the old one.
 	// Cloudformation handles the delete, so we just call the Create function.
 
