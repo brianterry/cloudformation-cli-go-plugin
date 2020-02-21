@@ -1,7 +1,7 @@
 {
-    "typeName": "Example::s3::Bucket",
+    "typeName": "Example::S3::Bucket",
     "description": "An example resource schema demonstrating some basic constructs and validation rules.",
-    "sourceUrl": "https://github.com/aws-cloudformation/aws-cloudformation-rpdk.git",
+    "sourceUrl": "https://github.com/aws-cloudformation/cloudformation-cli-go-plugin/blob/master/examples/s3-bucket",
     "properties": {
         "BucketName": {
             "description": "A name for the bucket. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the bucket name. ",
@@ -9,6 +9,9 @@
         }
     },
     "additionalProperties": false,
+    "required": [
+        "BucketName"
+    ],
     "createOnlyProperties": [
         "/properties/BucketName"
     ],

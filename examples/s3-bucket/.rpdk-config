@@ -1,5 +1,5 @@
 {
-    "typeName": "Example::s3::Bucket",
+    "typeName": "Example::S3::Bucket",
     "language": "go",
     "runtime": "go1.x",
     "entrypoint": "handler",

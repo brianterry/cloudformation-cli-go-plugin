@@ -1,0 +1,27 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Test Cloudformation",
+    "Parameters": {
+        "Name": {
+            "Description": "If not provided, it will be auto generated",
+            "Type": "String"
+        }
+    },
+    "Resources": {
+        "s3Bucket": {
+            "Type": "Example::S3::Bucket",
+            "Properties": {
+                "BucketName": {
+                    "Ref": "Name"
+                }
+            }
+        }
+    },
+    "Outputs": {
+        "BucketName": {
+            "Value": {
+                "Ref": "s3Bucket"
+            }
+        }
+    }
+}
