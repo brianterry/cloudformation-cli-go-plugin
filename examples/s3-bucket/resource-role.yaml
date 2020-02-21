@@ -25,6 +25,7 @@ Resources:
                 Action:
                 - "s3:CreateBucket"
                 - "s3:DeleteBucket"
+                - "s3:ListBuckets"
                 Resource: "*"
 Outputs:
   ExecutionRoleArn:

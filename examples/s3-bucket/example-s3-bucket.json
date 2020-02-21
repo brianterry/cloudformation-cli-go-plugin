@@ -28,6 +28,22 @@
             "permissions": [
                 "s3:DeleteBucket"
             ]
+        },
+        "list": {
+            "permissions": [
+                "s3:ListBuckets"
+            ]
+        },
+        "update": {
+            "permissions": [
+                "s3:CreateBucket"
+            ]
+        },
+        "read": {
+            "permissions": [
+                "s3:ListBuckets"
+            ]
         }
+
     }
 }
