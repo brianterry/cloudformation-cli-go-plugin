@@ -10,13 +10,14 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 )
 
+// Basic test to show mocking, etc...
+
 func init() {
 	err := os.Setenv("UNIT_TEST_TOGGLE", "TRUE")
 	if err != nil {
 		log.Println(err)
 	}
 }
-
 func TestCreate(t *testing.T) {
 	defer os.Unsetenv("UNIT_TEST_TOGGLE")
 
