@@ -3,7 +3,7 @@
     "Description": "Test Cloudformation",
     "Parameters": {
         "Name": {
-            "Description": "If not provided, it will be auto generated",
+            "Description": "Bucket name",
             "Type": "String"
         }
     },
