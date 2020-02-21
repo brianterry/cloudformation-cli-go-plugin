@@ -6,7 +6,6 @@ Example shows how to create an s3 bucket.
 
 This example includes a sample unit test that show how to mock an AWS resource for testing.
 
-## Run
 
 | Name | Description | Required |
 |:-----|:------------|:---------|
